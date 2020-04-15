@@ -1,5 +1,5 @@
 //jshint strict: false
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
 
     basePath: './app',
@@ -17,7 +17,7 @@ module.exports = function(config) {
 
     frameworks: ['jasmine'],
 
-    browsers: ['Chrome', 'Firefox'],
+    browsers: ['Chrome'],
 
     plugins: [
       'karma-chrome-launcher',
